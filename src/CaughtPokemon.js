@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 const CaughtPokemon = (props) => {
   const [caught, setCaught] = useState([]);
-  const allPokemon = []
+  // const allPokemon = []
   function increaseCount() {
     setCaught(caught.concat("Bulbasaur"));
   }
